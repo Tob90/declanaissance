@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demande d'acte de naissance</title>
+    <link rel="shortcut icon" href="img/maire.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />  
+    <link rel="stylesheet" href="styles/styles.css" />
+</head>
+
+<body class="body container">
+
+    <h1 class="text-center container">Demande d'acte de naissance</h1>
+    <div class="container">
+        <form action="" method="post">
+            <div class="mb-3 p-3">
+                <label for="nom" class="form-label">Nom de l'enfant:</label>
+                <input type="text" class="form-control" id="nom" name="nom" required>
+            </div>
+            <div class="mb-3 p-3">
+                <label for="prenom" class="form-label">Prénom de l'enfant:</label>
+                <input type="text" class="form-control" id="prenom" name="prenom" required>
+            </div>
+            <div class="mb-3">
+                <label for="date_naissance" class="form-label">Date de naissance:</label>
+                <input type="date" class="form-control" id="date_naissance" name="date_naissance" required>
+            </div>
+            <div class="mb-3">
+                <label for="lieu_naissance" class="form-label">Lieu de naissance:</label>
+                <input type="text" class="form-control" id="lieu_naissance" name="lieu_naissance" required>
+            </div>
+
+            <div>
+
+                <button type="submit" class="btn btn-primary justify-content-center">Soumettre</button>
+                <button type="reset" class="btn btn-danger justify-content-center">Annuler</button>
+
+            </div>
+        </form>
+    </div>
+
+    
+        <footer class="footer container">
+
+            <div class="signature text-center m-3"> &copy;2026 ReverendTob. Tous droits réservés</div>
+
+        </footer>
+</body>
+
+</html>
